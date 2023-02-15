@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Laiken's Emojis</h1>   
+        <div id="emoji-container" class="animated-text"></div>
+        <div id="input-parent">
+            <div class="input-children" id="emoji-input-wrapper">
+                <h2>Pick an emoji 🎉</h2>
+                <div class="tooltip" role="tooltip">
+                    <emoji-picker></emoji-picker>
+                </div>
+            </div>
+            <div class="input-children" class="buttons-wrapper">
+                <div id="switch-wrapper">
+                    <p class="switch-label" id="p-left">L</p>
+                    <label class="switch">
+                        <input type="checkbox" id="input-switch" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <p class="switch-label" id="p-right">R</p>
+                </div>
+                <button id="remove-btn">Remove</button>
+            </div>
+        </div>
+        <script type="module">import 'https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js'</script>
+        <script src="index.js"></script>
+    </body>
+</html>
