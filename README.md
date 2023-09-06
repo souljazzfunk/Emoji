@@ -6,13 +6,9 @@
 
 This repository contains a fun and interactive Emoji Picker UI built entirely using HTML and CSS. It showcases a range of modern CSS techniques including gradient backgrounds, text shadows, flexbox layout, and custom animations. Perfect for those looking to understand the potential of CSS for UI/UX design!
 
-## Table of Contents
-- [Description](#description)
-- [Features](#features)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Contribution](#contribution)
+## Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a8b654fc-539c-448c-ade7-ea0ae6cdfaf7/deploy-status)](https://sjf-emoji.netlify.app/)
 
 ## Features
 
