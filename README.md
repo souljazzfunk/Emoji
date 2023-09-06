@@ -39,8 +39,8 @@ This repository contains a fun and interactive Emoji Picker UI built entirely us
 To get started with this project, simply clone the repository, and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/souljazzfunk/emoji-picker-ui.git
-cd emoji-picker-ui
+git clone https://github.com/souljazzfunk/Emoji.git
+cd Emoji
 open index.html
 ```
 
